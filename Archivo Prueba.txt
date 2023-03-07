@@ -1,0 +1,50 @@
+GUIA: PRIMEROS PASOS CON REPOSITORIOS LOCALES Y REMOTOS
+
+
++CARGAR CREDENCIALES GIT
+
+git config --global user.email "maximilianovalli.sc@gmail.com"
+git config --global user.name "maxivalli"
+
+
++CLONAR UN REPOSITORIO REMOTO EN EL REPOSITORIO LOCAL
+
+Clonar repositorio Github <- Copiar el llink
+
+Comando consola <- git clone www.github......
+
+
++CREAR UN REPOSITORIO LOCAL
+
+Crear una carpeta <- mkdir "Carpeta Repositorio"
+
+Ingresar a la carpeta <- cd "Carpeta Repositorio"
+
+Inicializar el repositorio <- git init
+
+
++GUARDAR UN CAMBIO LOCAL
+
+Agregar el o los archivos <- git add "Archivo Prueba.txt"
+
+*Agregat TODOS los archivos <- git add .
+
+Agregar una version de cambio <- git commit -m "primer cambio"
+
+Renombrar el repositorio <- git branch -M main
+
+
++GUARDAR UN CAMBIO LOCAL EN EL REPOSITORIO REMOTO
+
+Sincronizar con Github <- git push origin main
+
+
++GUARDAR UN CAMBIO REMOTO EN EL REPOSITORIO LOCAL
+
+Sincronizar con el Repositorio Local <- git pull 
+
+
++LISTAR LOS CAMBIOS REALIZADOS
+
+Ver una lista de las versiones del Commit <- git log
+
