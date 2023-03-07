@@ -11,7 +11,7 @@ git config --global user.name "maxivalli"
 
 Clonar repositorio Github <- Copiar el llink
 
-Comando consola <- git clone www.github......
+Comando consola <- git clone www.github...
 
 
 +CREAR UN REPOSITORIO LOCAL
@@ -27,11 +27,10 @@ Inicializar el repositorio <- git init
 
 Agregar el o los archivos <- git add "Archivo Prueba.txt"
 
-*Agregat TODOS los archivos <- git add .
+*Agregar TODOS los archivos <- git add .
 
 Agregar una version de cambio <- git commit -m "primer cambio"
 
-Renombrar el repositorio <- git branch -M main
 
 
 +GUARDAR UN CAMBIO LOCAL EN EL REPOSITORIO REMOTO
